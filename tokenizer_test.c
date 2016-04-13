@@ -78,7 +78,7 @@ int main() {
     assert(strcmp(token1, "fooo"));
     char* s6 = "+ 32 2";
     char* token2 = get_token(s6);
-    assert(strcmp, token2, "+");
+    assert(strcmp(token2, "+"));
      //printf("hello\n");
 
     
