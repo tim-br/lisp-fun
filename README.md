@@ -8,4 +8,6 @@ Interact with C libraries in a lispy way.
 
 `gcc -o test tokenizer.c   tokenizer_test.c`, then `./test`.
 
+To test `eval.c` run `gcc -o test eval.c eval_test.c` and then `./test`
+
 (otherwise main.c doesn't do much yet)
